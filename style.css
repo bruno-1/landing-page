@@ -1,3 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: "Roboto",sans-serif;
+}
+body {
+  margin: 0;
+}
+
+.header {
+  padding-left: 13.0625rem;
+  padding-right: 13.06025rem;
+}
+
+.header {
+  background-color: #1F2937;
+  padding-top: 1.375rem;
+  font-weight: 400;
+}
+
+.header__first-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-line__title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #F9FAF8;
+}
+
+.nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.625rem;
+  font-size: 1.125rem;
+  color: #E5E7EB;
+}
+
+.nav__list > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__principal-content {
+  display: flex;
+  margin-top: 7.4375rem;
+  gap: 3.4375rem;
+  padding-bottom: 8.25rem;
+}
+
+.principal-content__about {
+  color: #F9FAF8;
+}
+
+.about__title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.about__paragraph {
+  font-size: 1.125rem;
+  color: #E5E7EB;
+  margin: 0;
+  font-weight: 400;
+}
+
+.about__btn-sign {
+  margin-top: 1rem;
+  border: none;
+  background-color: #3882F6;
+  padding: .6875rem 2.1875rem;
+  color: #F9FAF8;
+  font-size: 1.125rem;
+  border-radius: 10px;
 }
