@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto",sans-serif;
 }
+
 body {
   margin: 0;
 }
@@ -11,9 +12,6 @@ body {
 .header {
   padding-left: 13.0625rem;
   padding-right: 13.06025rem;
-}
-
-.header {
   background-color: #1F2937;
   padding-top: 1.375rem;
   font-weight: 400;
@@ -77,5 +75,48 @@ body {
   padding: .6875rem 2.1875rem;
   color: #F9FAF8;
   font-size: 1.125rem;
-  border-radius: 10px;
+  border-radius: .625rem;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__title {
+  margin: 0;
+  align-self: center;
+  font-weight: 900;
+  font-size: 2.25rem;
+  color: #1F2937;
+  margin-top: 3.25rem;
+  margin-bottom: 3.4375rem;
+}
+
+.main_illustrations {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 7.5625rem;
+}
+
+.illustrations__illustration {
+  display: flex;
+  flex-direction: column;
+  max-width: 10rem;
+  min-width: 10rem;
+}
+
+.illustration__img {
+  border: .25rem solid #3882F6;
+  border-radius: .625rem;
+  margin-bottom: .5rem;
+}
+
+.illustration__description {
+  text-align: center;
+  font-size: 1.125rem;
+  color: #1F2937;
+  width: 16ch;
 }
