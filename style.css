@@ -78,7 +78,7 @@ body {
   padding: .6875rem 2.1875rem;
   color: #F9FAF8;
   font-size: 1.125rem;
-  border-radius: .625rem;
+  border-radius: 10px;
 }
 
 .main {
@@ -112,8 +112,8 @@ body {
 }
 
 .illustration__img {
-  border: .25rem solid #3882F6;
-  border-radius: .625rem;
+  border: 4px solid #3882F6;
+  border-radius: 10px;
   margin-bottom: .5rem;
 }
 
@@ -141,4 +141,34 @@ body {
 .quote__author {
   margin-left: auto;
   margin-right: 7.875rem;
+}
+
+.main__call-to-action {
+  margin: 6.125rem 13.06025rem 6.125rem 13.0625rem;
+  padding: 3.25rem 7.4375rem;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7.5px;
+}
+
+.call-to-action__content-action {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.125rem;
+}
+
+.content-action__bold {
+  font-size: 1.5rem;
+}
+
+.call-to-action__btn-sign {
+  border: 2px solid #F9FAF8;
+  background-color: transparent;
+  padding: .25rem 2rem;
+  color: #F9FAF8;
+  font-size: 1.125rem;
+  border-radius: 7.5px;
 }
